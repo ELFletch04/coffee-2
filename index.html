@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <title>[Coffee Shop Name]</title> <!-- Title of the coffee shop -->
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="logo.png" alt="[Coffee Shop Name] Logo" class="logo"> <!-- Logo image -->
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li> <!-- Navigation link to Home section -->
+            <li><a href="#menu">Menu</a></li> <!-- Navigation link to Menu section -->
+            <li><a href="#about">About</a></li> <!-- Navigation link to About section -->
+            <li><a href="#about">Contact</a></li> <!-- Navigation link to Contact section -->
+        </ul>
+       
+    </nav>
+
+    <div id="home" class="main-container">
+        <div class="home-text">
+            <h1>Lily Tree Bakery Ltd </h1> <!-- Main heading -->
+            <h2 class="subtitle">Speciality Bakery</h2> <!-- Subtitle -->
+        </div>
+        
+        <div class="slideshow-container"> <!-- Slideshow for images -->
+            <div class="slide active">
+                <img src="pic1.png" alt="Delicious Coffee"> <!-- Image slide -->
+            </div>
+            <div class="slide">
+                <img src="pic2.png" alt="Coffee Beans">
+            </div>
+            <div class="slide">
+                <img src="pic3.png" alt="Cozy Atmosphere">
+            </div>
+            <div class="slide">
+                <img src="pic4.png" alt="Barista Crafting Coffee">
+            </div>
+            <div class="slide">
+                <img src="pic5.png" alt="Cup of Latte">
+            </div>
+        </div>
+    </div>
+
+    <div class="home-text">  
+        <p id="description">Welcome to Lily Tree Bakery Ltd!</p> <!-- Description -->
+    </div>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-toggle">
+            <button id="food-btn" class="active">Food</button>
+            <button id="drinks-btn">Drinks</button>
+        </div>
+        <div id="food-menu" class="menu-content active">
+            <ul class="menu-list">
+                <li><span>Bagel</span> - <span>£3.50</span></li>
+                <li><span>Cheesecake</span> - <span>£4.20</span></li>
+                <li><span>Panini</span> - <span>£5.00</span></li>
+                <li><span>Sandwich</span> - <span>£3.50</span></li>
+                <li><span>Pancake</span> - <span>£4.20</span></li>
+                <li><span>Pastry</span> - <span>£5.00</span></li>
+            </ul>
+            </ul>
+        </div>
+        <div id="drinks-menu" class="menu-content">
+            <ul class="menu-list">
+                <li><span>Espresso</span> - <span>£2.50</span></li>
+                <li><span>Latte</span> - <span>£3.20</span></li>
+                <li><span>Tea</span> - <span>£2.00</span></li>
+                <li><span>Hot chocolate</span> - <span>£2.50</span></li>
+                <li><span>Mocha</span> - <span>£3.20</span></li>
+                <li><span>Cappuccino</span> - <span>£2.00</span></li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Lily Tree Bakery, we take pride in our commitment to quality and sustainability...</p> <!-- About section -->
+        <h3>Opening Hours:</h3>
+        <p>Mon - Fri: 08:30 - 16:30<br>
+           Sat - Sun: 10:00 - 16:30</p>
+        <h3>Address:</h3>
+        <p>[Your Address]</p> <!-- Replace with actual address -->
+        <h3>Contact Us:</h3>
+        <p>Phone: [Your Phone Number]</p> <!-- Replace with actual phone number -->
+    </section>
+
+    <section id="location" class="map-section">
+        <h2>Find Us</h2>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18..."
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <!-- Embed Google Maps -->
+        </div>
+    
+    </section>
+
+    <section id="reviews" class="reviews-section">
+        <h2>Customer Reviews</h2>
+        <div class="reviews-container">
+            <div class="review">
+                <p>"Amazing coffee!"</p>
+                <span>- [Customer Name]</span>
+            </div>
+            <div class="review">
+                <p>"Hands down the best coffee in the area."</p>
+                <span>- [Customer Name]</span>
+            </div>
+            <div class="review">
+                <p>"Great atmosphere and friendly staff."</p>
+                <span>- [Customer Name]</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
